@@ -1,7 +1,7 @@
-import React, {CSSProperties, FC, HTMLAttributes, ReactElement} from 'react'
+import React, {FC, HTMLAttributes, ReactElement} from 'react'
 import Image from 'next/image'
 import {ScanQrCode} from 'lucide-react'
-import PrimaryButton from '@/components/PrimaryButton'
+import PrimaryLink from '@/components/PrimaryLink'
 
 type Props = {
   //style?: CSSProperties
@@ -62,7 +62,7 @@ const ContactCardView: FC<Props> = (props: Props): ReactElement => {
         <p style={{fontSize: 16, fontWeight: '400'}}>Scan this QR code to add contact information</p>
       </div>
       <Image style={{border: '1px solid #D3D3D3', borderRadius: 8}} src="/qr.png" width={200} height={200} alt="Picture of the author" />
-      <PrimaryButton caption={'Open in browser'} href="https://smartcards.pro/WHqgNX" target="_blank" />
+      <PrimaryLink caption={'Open in browser'} href="https://smartcards.pro/WHqgNX" target="_blank" />
     </div>
   )
 }
