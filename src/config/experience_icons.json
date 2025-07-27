@@ -1,0 +1,109 @@
+{
+  "frontend": [
+    {
+      "label": "UX Design",
+      "logo": "ux_design.jpg"
+    },
+    {
+      "label": "HTML",
+      "logo": "html.svg"
+    },
+    {
+      "label": "HTML",
+      "logo": "html.svg"
+    },
+    {
+      "label": "CSS",
+      "logo": "css.svg"
+    },
+    {
+      "label": "Figma",
+      "logo": "figma.svg"
+    },
+    "React",
+    "React-Native",
+    "StyleX",
+    "Tailwind CSS",
+    "Redux",
+    "Next.js",
+    "Styled Components",
+    "Expo",
+    "XState",
+    "iOS",
+    "JSON Forms",
+    "Zustand",
+    "Zod",
+    "Turbo",
+    "i18n",
+    "Framer Motion",
+    "Refine",
+    "Android SDK",
+    "Typescript",
+    "Javascript",
+    "Sass/Scss"
+  ],
+  "backend": [
+    "Java",
+    "Kotlin",
+    "Kotlin Multiplatform",
+    {
+      "label": "Node",
+      "logo": "nodejs.svg"
+    },
+    "Micro Services",
+    "REST",
+    "Web Services",
+    "Python",
+    "RabbitMQ",
+    "Delphi",
+    "TypeORM",
+    "SQL & PL/SQL",
+    "Linux",
+    "SOAP",
+    "Oracle ADF",
+    "Database Design",
+    "C#",
+    "Spring",
+    "Spring Boot",
+    "Mongo",
+    "PostgreSQL",
+    "Docker",
+    "Jest",
+    "API Design",
+    "Supabase",
+    "Typescript",
+    "Weblogic",
+    "Javascript",
+    "AWS",
+    "Azure",
+    "YAML",
+    "DrizzleORM",
+    "Express",
+    "i18n",
+    "OpenAPI",
+    "Keras"
+  ],
+  "other": [
+    "Git",
+    "Version Control",
+    "Photoshop",
+    "3D Studio Max",
+    "Jira",
+    "Scrum",
+    "Oracle",
+    "XML",
+    "Machine Learning",
+    "MLflow",
+    "Code Quality",
+    "Code Reviews",
+    "Blockchain",
+    "OCR",
+    "XPath",
+    "Unreal Development Kit",
+    "JDeveloper",
+    "IntelliJ",
+    "OpenAI",
+    "Unit testing",
+    "Integration testing"
+  ]
+}
