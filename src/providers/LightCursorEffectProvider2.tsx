@@ -4,7 +4,7 @@ import {EventType} from '@/types'
 
 const LightCursorEffectProvider2 = ({children}: {children: ReactNode}): ReactElement => {
   const lightRef = useRef<HTMLDivElement>(null)
-  const RADIAL_SCALE = '50%'
+  const RADIAL_SCALE = '50%' // TODO move to config css
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent): void => {

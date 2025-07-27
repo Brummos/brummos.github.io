@@ -62,13 +62,11 @@ const LocaleField: FC<Props> = (props: Props): ReactElement => {
         flexDirection: 'row',
         gap: 6,
         cursor: 'pointer',
-        userSelect: 'none',
+        userSelect: 'none'
       }}
       {...(onClick && {onClick: () => onClick(locale)})}
     >
-      <div style={{borderRadius: 4, overflow: 'hidden'}}>
-        {getLocaleFlag(locale)}
-      </div>
+      <div style={{borderRadius: 4, overflow: 'hidden'}}>{getLocaleFlag(locale)}</div>
       {showLocaleCaption && <span style={{fontWeight: '500', fontSize: 15, whiteSpace: 'nowrap'}}>{locale}</span>}
     </div>
   )
